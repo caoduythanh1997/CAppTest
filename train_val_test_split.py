@@ -12,10 +12,10 @@ import os
 import sys
 
 # Define paths to image folders
-image_path = '/content/images/all'
-train_path = '/content/images/train'
-val_path = '/content/images/validation'
-test_path = '/content/images/test'
+image_path = '/images/all'
+train_path = '/images/train'
+val_path = '/images/validation'
+test_path = '/images/test'
 
 # Get list of all images
 jpeg_file_list = [path for path in Path(image_path).rglob('*.jpeg')]
